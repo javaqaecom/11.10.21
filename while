@@ -1,0 +1,12 @@
+public class whileClass {
+    public static void main(String[] args) {
+        int x=6;
+        while (x<7){
+            System.out.println(x);
+            System.out.println("hothaifa");
+            x--;
+        }
+        System.out.println("out of hte loop");
+    }
+
+}
