@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Function {
+    static void coffeeMachine(int cs,int ss,int milk){
+
+        System.out.println("put "+cs+" spoons of coffee into a cup");
+        System.out.println("add a boiled water into the cup");
+        System.out.println("add "+ss+" spoon of sugar to the cup ");
+        System.out.println("add "+milk+" cc of milk");
+        System.out.println("Steer!");
+
+    }
+
+    public static void main(String[] args) {
+        Scanner sc1= new Scanner(System.in);
+        System.out.println("kama kapiot kafe !!");
+        int coffeeSpoons=sc1.nextInt();
+        System.out.println("כמה כפיות סוכר ?");
+        int sugarSpoons= sc1.nextInt();
+        System.out.println("ml of milk you need ?");
+        int milk= sc1.nextInt();
+        coffeeMachine(coffeeSpoons,sugarSpoons,milk);
+
+
+    }
+}
