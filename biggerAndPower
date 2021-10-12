@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class power {
+    static String bigger(int x , int y ){
+        if (x>y){
+            return "x is bigger";
+        }
+        else
+            return "y is bigger";
+    }
+
+    static int power2(int x,int y){
+
+        return x*y;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc1 = new Scanner(System.in);
+        int x,y;
+
+        System.out.println("please enter 1 numbers :");
+        x= sc1.nextInt();
+        System.out.println("please enter the second number");
+        y= sc1.nextInt();
+        System.out.println(power2(x,y));
+        System.out.println(bigger(x,y));
+    }
+}
