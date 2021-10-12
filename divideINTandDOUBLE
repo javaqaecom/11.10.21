@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class function3{
+    static int divInt(int x,int y){
+        if(y==0)
+            return 0;
+        return x/y;
+    }
+    static double divDouble(double x,double y){
+        if(y==0)
+            return 0;
+        return x/y;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc1 = new Scanner(System.in);
+        int x,y;
+
+        System.out.println("please enter 2  numbers");
+        x=sc1.nextInt();
+        y= sc1.nextInt();
+        System.out.println(divInt(x,y));//3
+        System.out.println(divDouble(x, y));//3.75
+    }
+}
