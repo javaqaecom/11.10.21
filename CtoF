@@ -1,0 +1,18 @@
+public class CtoF {
+    public static void main(String[] args) {
+        //For loop
+       for (int c = 0; c<=10;c++){
+            System.out.println("maalout b C ="+c);
+            System.out.println("maalout b F = "+(1.8*c+32) );
+        }
+
+        // while loop
+        int c = 0;
+        while (c<=10){
+            System.out.println("maalout b C ="+c);
+            System.out.println("maalout b F = "+(1.8*c+32) );
+            c++;
+        }
+
+    }
+}
